@@ -19,4 +19,5 @@ st.write("st.table(df)")
 st.table(df)                    # Static table
 
 # Customize columns directly in the dataframe display
+st.write("Customize columns")
 st.dataframe(df.style.format({'Sales': '${:,.0f}', 'Customers': '{:,.0f}'}))
